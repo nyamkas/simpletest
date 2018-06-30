@@ -27,11 +27,7 @@ public class NewSteps {
         System.out.println("Initialisation");
     }
 
-<<<<<<< HEAD
     @Given("^chromedriver from \"([^\"]*)\" in system folder \"([^\"]*)\" - for Linux$")
-=======
-    @Given("^chromedriver from \"([^\"]*)\" in system folder \"([^\"]*)\"$")
->>>>>>> b3322d6f05145593a02f58f7027d2cebeaed5005
     public void chromedriverFromInSystemFolder(String url, String path) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("Preconditions: chromedriver from " + url + " is in " + path + " folder");
